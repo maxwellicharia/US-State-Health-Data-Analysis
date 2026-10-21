@@ -13,9 +13,9 @@ from bs4 import BeautifulSoup
 
 # Define default configuration constants
 TARGET_URL: str = (
-    "https://www.visualcapitalist.com/americas-healthiest-states-ranked/"
+    "https://www.visualcapitalist.com/the-most-diverse-states-in-the-us-by-race/"
 )
-OUTPUT_FILE: Path = Path("healthiest_states.csv")
+OUTPUT_FILE: Path = Path("diverse_states.csv")
 
 
 def scrape_table(url: str) -> Optional[pd.DataFrame]:
