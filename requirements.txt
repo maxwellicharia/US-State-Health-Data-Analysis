@@ -29,7 +29,7 @@ six==1.17.0
 soupsieve==3.0.3
 tqdm==4.70.1
 typing_extensions==4.16.0
-urllib3==1.26.20
+urllib3==2.8.0
 w3lib==2.5.0
 websockets==10.4
 zipp==4.1.1
