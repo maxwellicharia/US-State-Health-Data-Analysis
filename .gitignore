@@ -78,7 +78,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*   
+*/.ipynb_checkpoints/*
+new-workspace.jupyterlab-workspace
 
 # IPython
 profile_default/
