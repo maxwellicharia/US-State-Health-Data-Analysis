@@ -78,7 +78,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-.jupyterlab-workspace
+*/.ipynb_checkpoints/*   
 
 # IPython
 profile_default/
@@ -219,3 +219,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated exports
+*.nbconvert.html
+*.nbconvert.pdf
